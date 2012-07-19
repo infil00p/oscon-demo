@@ -1,0 +1,52 @@
+@media screen and (min-width: 1024px) {
+    #graphic {
+        background: url(waterfall_large_portrait.jpg);
+        width: 720px;
+        height: 540px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    #graphic {
+        background: url(waterfall_large_landscape.jpg);
+        width: 960px;
+        height: 720px;
+    }
+}
+
+#menu {
+    position: fixed;
+    height: 100%;
+}
+
+#menu li {
+    list-style: none;
+    padding: 10px;
+}
+
+#bottom_item
+{
+    position: absolute;
+    bottom: 10px;
+}
+
+#menu a {
+    font-face: Helvetica, Sans-Serif;
+    font-size: 24px;
+    spacing: 10px;
+    color: #dddddd;
+    text-decoration: none;
+}
+
+#container {
+    position: fixed;
+    top: 10px;
+    left: 200px;
+    height: 100%;
+    overflow: scroll;
+}
+
+#info {
+    display: none;
+}
+

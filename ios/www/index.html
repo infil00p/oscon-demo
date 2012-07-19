@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<!--
+       Licensed to the Apache Software Foundation (ASF) under one
+       or more contributor license agreements.  See the NOTICE file
+       distributed with this work for additional information
+       regarding copyright ownership.  The ASF licenses this file
+       to you under the Apache License, Version 2.0 (the
+       "License"); you may not use this file except in compliance
+       with the License.  You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+       Unless required by applicable law or agreed to in writing,
+       software distributed under the License is distributed on an
+       "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+       KIND, either express or implied.  See the License for the
+       specific language governing permissions and limitations
+       under the License.
+-->
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width; user-scalable=no; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0; target-densitydpi=device-dpi" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>PhoneGap</title>
+      <link rel="stylesheet" href="master.css" type="text/css" media="screen" title="no title">
+      <link rel="stylesheet" href="landscape.css" type="text/css" media="screen and (min-width: 1024px)" title="no title">
+      <link rel="stylesheet" href="portrait.css" type="text/css" media="screen and (max-width: 1023px)" title="no title">
+
+      <script type="text/javascript" charset="utf-8" src="cordova-1.9.0.js"></script>
+      <script type="text/javascript" charset="utf-8" src="icons.js"></script>
+      <script type="text/javascript" charset="utf-8" src="main.js"></script>
+      
+  </head>
+  <body onload="init()" id="stage" class="theme">
+   <div id="info">
+    <h4>Device Pixel Ratio:<span id="px_density"></span></h4>
+    <h4>Width:<span id="width"></span></h4>
+    <h4>Height:<span id="height"></span></h4>
+    <h4>clientWidth:<span id="cWidth"></span></h4>
+    <h4>clientHeight:<span id="cHeight"></span></h4>
+    <h4>innerWidth:<span id="iWidth"></span></h4>
+    <h4>innerHeight:<span id="iHeight"></span></h4>
+   </div>
+   <div id="menu">
+    <ul class="icons">
+        <li><img class="icon" id="camp_icon" src="icons_large/camp.png" /></li>
+        <li><img class="icon" id="swim_icon" src="icons_large/swim.png" /></li>
+        <li><img class="icon" id="hike_icon" src="icons_large/hiking.png" /></li>
+        <li><img class="icon" id="map_icon" src="icons_large/map.png" /></li>
+    </ul>
+    <ul id="bottom_item">
+        <li><img class="icon" id="about_icon" src="icons_large/about.png" /></li>
+    </ul>
+   </div>
+   <div id="container">
+    <div id="graphic">
+    </div>
+    <div id="text">
+    <h2>Helmcken Falls</h2>
+    <p>Helmcken Falls is a 141 m (463 ft) waterfall on the Murtle River within Wells Gray Provincial Park in British Columbia, Canada. The protection of Helmcken Falls was one of the reasons for the creation of Wells Gray Provincial Park in 1939.</p>
+    <p>Helmcken Falls is the fourth highest waterfall in Canada, measured by total straight drop without a break. Higher Canadian waterfalls are Hunlen Falls in Tweedsmuir Provincial Park, Takakkaw Falls in Yoho National Park, and Della Falls in Strathcona Provincial Park, all in British Columbia.</p>
+    <p>There are six other waterfalls on the Murtle River, upstream from Helmcken Falls. The others are The Mushbowl, Dawson Falls, Majerus Falls, Horseshoe Falls, Meadow Falls and McDougall Falls. Only Helmcken, The Mushbowl and Dawson can be reached by road. Majerus, Horseshoe and McDougall Falls are accessed by trails . Meadow Falls is very difficult to view, except by air.</p>
+    <p>Helmcken Falls was discovered in 1913 by Robert Lee, a land surveyor working for the British Columbia government. He was so impressed with the waterfall that he wrote a letter from his remote camp to Sir Richard McBride, Premier of British Columbia, requesting that the falls be named "McBride Falls". Three weeks later, Lee received a reply from the Premier stating that the waterfall was instead to be called Helmcken Falls. This name honoured John Sebastian Helmcken, a physician with the Hudson's Bay Company who arrived in Victoria in 1850. He helped bring British Columbia into Canadian Confederation in 1871. Dr. Helmcken died in 1920 at the age of 95, but never actually saw the falls himself.</p>
+   </div>
+  </body>
+</html>

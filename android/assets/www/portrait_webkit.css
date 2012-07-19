@@ -1,0 +1,83 @@
+@media screen and (max-width: 1024px) {
+    #graphic {
+        background: url(waterfall_large_portrait.jpg);
+        width: 720px;
+        height: 540px;
+    }
+
+
+    #menu {
+        height: 120px;
+    }
+}
+
+#text {
+      font-size:16px;
+}
+
+@media screen and (max-width: 720px) {
+    #graphic {
+        background: url(waterfall_mid_portrait.jpg);
+        width: 480px;
+        height: 320px;
+    }
+
+
+    #menu {
+        height: 100px;
+    }
+
+}
+
+@media screen and (max-width: 479px) {
+    #graphic {
+        background: url(waterfall_small_portrait.jpg);
+        width: 320px;
+        height: 240px;
+    }
+
+    #menu { 
+        height: 80px;
+    }
+
+}
+
+ul.icons {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-left: -35px;
+}
+
+#menu li {
+    list-style: none;
+    display: inline;
+    padding-right: 10px;
+}
+
+#menu a {
+    font-face: Helvetica, Sans-Serif;
+    color: #dddddd;
+    text-decoration: none;
+}
+
+#bottom_item {
+    position: absolute;
+    right: 10px;
+    top: 0px;
+}
+
+#container {
+    height: 100%;
+    overflow: scroll;
+}
+
+#text {
+    font-size: 16px;
+}
+
+#info {
+    display: none;
+}
+
+

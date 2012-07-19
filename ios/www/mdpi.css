@@ -1,0 +1,23 @@
+#graphic {
+    background: url(waterfall_large_portrait.jpg);
+    width: 720px;
+    height: 540px;
+}
+
+#text {
+    display: none;
+}
+
+#menu {
+    position: fixed;
+}
+
+#container {
+    position: fixed;
+    top: 10px;
+    left: 200px;
+}
+
+#info {
+    display: none;
+}

@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'OSCON Test' target in the 'OSCON Test' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
