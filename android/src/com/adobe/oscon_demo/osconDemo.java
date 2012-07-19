@@ -23,7 +23,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import org.apache.cordova.*;
 
-public class cordovaExample extends DroidGap
+public class osconDemo extends DroidGap
 {
     @Override
     public void onCreate(Bundle savedInstanceState)
