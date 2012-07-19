@@ -17,7 +17,7 @@
        under the License.
  */
 
-package com.adobe.oscon_demo;
+package org.apache.cordova.oscon_demo;
 
 import android.app.Activity;
 import android.os.Bundle;
